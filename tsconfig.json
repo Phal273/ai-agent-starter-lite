@@ -1,0 +1,1 @@
+{"compilerOptions":{"allowImportingTsExtensions":true,"esModuleInterop":true,"module":"NodeNext","moduleResolution":"NodeNext","noEmit":true,"outDir":"dist","skipLibCheck":true,"strict":true,"target":"ES2022"},"include":["lib/**/*","examples/**/*"]}
