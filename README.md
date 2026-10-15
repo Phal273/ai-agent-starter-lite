@@ -49,7 +49,7 @@ agent resumes exactly where it stopped, files and conversation intact.
 | File tools (list/read/write/edit) | ✅ | ✅ |
 | Local JSON checkpointing | ✅ |: |
 | Postgres queue (`SKIP LOCKED` claims, heartbeats) |: | ✅ |
-| Deno edge-function worker |: | ✅ |
+| Dedicated background worker (poll → claim → iterate → checkpoint) |: | ✅ |
 | Streaming chat UI (SSE) |: | ✅ |
 | RAG (pgvector `match_documents`) |: | ✅ |
 | Auth (Supabase + RLS) |: | ✅ |
